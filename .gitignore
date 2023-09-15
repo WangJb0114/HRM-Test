@@ -1,15 +1,19 @@
-*.iml
-.gradle
+# 忽略Gradle自动生成的构建文件
+/build/
+
+# 忽略IDE生成的文件和目录
+/.idea/
+/.gradle/
+/captures/
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+
+# 忽略构建输出目录
+/app/build/
+
+# 忽略系统文件
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+Thumbs.db
+
+# 忽略一些配置文件
+*.iml
+*.log
